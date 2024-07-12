@@ -1,0 +1,659 @@
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: "Roboto", Sans-serif;
+}
+
+.whats-logo .whats {
+     /* font-size: 30px;  */
+   
+    text-transform: uppercase;
+    position:fixed;
+    top: 620px;
+    color:black;
+    /* left: 40px; */
+    display: flex;
+    margin-left: 10px;
+}
+
+.whats-logo p{
+    /* margin-left: 10px; */
+    font-size: 20px;
+    /* background-color: white; */
+}
+
+.whats-logo{
+    /* position:absolute; */
+}
+
+.whats-logo .whats i {
+    font-size: 50px;
+    background-color: rgb(80, 133, 80);
+    color: white;
+    border-radius: 50%;
+    /* position:relative; */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    /* background-color: #9D541B; */
+}
+
+ul li.home {
+    color: black;
+}
+
+.topic li a {
+    /* font-size: 20px; */
+    width: 550px;
+    /* height:30px; */
+    text-transform: capitalize;
+}
+
+.sub li a {
+    text-transform: capitalize;
+}
+
+.logo img {
+    height: 150px;
+    width: 210px;
+    margin-top: 5px;
+}
+
+.menu ul a {
+    color: rgb(139, 123, 105);
+}
+
+.menu ul a:hover {
+    color: #3D3D3D;
+}
+
+.mainmenu .home a {
+    color: #3D3D3D;
+}
+
+.menu ul {
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu li a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li ul li {
+    /* border-bottom: 1px solid white; */
+}
+
+ul li a {
+    display: block;
+    padding: 8px 25px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: black;
+    /* background-color: burlywood; */
+}
+
+ul li ul.sub {
+    color: white;
+    min-width: 200px;
+    height: 100%;
+    /* background-color: blue; */
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+
+ul li ul li ul.topic {
+    display: none;
+}
+
+ul li ul li:hover ul.topic {
+    display: block;
+    left: 100%;
+    top: 0%;
+    position: absolute;
+}
+
+ul li:hover ul.sub {
+    display: block;
+}
+
+.menu #drop {
+    height: 25px;
+    width: 120px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    box-shadow: 5px;
+    color: rgb(139, 123, 105);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.slider-box {
+    width: 90%;
+    height: 90vh;
+    margin: 30px auto;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+#slider {
+    width: 100%;
+    display: inline-flex;
+    /* overflow: hidden; */
+}
+
+.sliderimg {}
+
+.back-img {
+    background-image: url(E:/spigot/site1/first.png);
+    background-size: cover;
+
+}
+
+#slider img {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+/* #slider .peanut_pic{
+    height: 842px;
+    width: 100%;
+}
+#slider .oil_pic{
+    height: 842px;
+    width: 100%;
+}
+#slider .rice_pic{
+    height: 842px;
+    width: 100%;
+}
+#slider .mas_pic{
+    height: 842px;
+    width: 100%;
+}
+#slider .last_pic{
+    height: 842px;
+    width: 100%;
+} */
+
+.indicator {
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+}
+
+.indicator span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: black;
+
+}
+
+
+
+.stamps {
+    margin-top: -30px;
+    background-image: url(E:/spigot/site1/bg.jpg);
+    height: 500px;
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.8s, border-radius 0.3s, opacity 0.1s;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 190px;
+    width: 190px;
+    margin: 0px 20px 0px 0px;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+    margin: 15px 15px 15px 15px;
+    filter: brightness(5);
+    filter: contrast(50);
+    opacity: 95;
+
+}
+
+.tle {
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.prod-img {
+    margin: 0;
+    display: flex;
+}
+
+.prod-img img {
+    height: 550px;
+    width: 506px;
+    cursor: pointer;
+}
+
+.prod-img1 {
+    margin-top: -5px;
+    display: flex;
+}
+
+.prod-img1 img {
+    height: 550px;
+    width: 506px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    cursor: pointer;
+}
+
+.prod-img .items p {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -1334px;
+    /* right: 0; */
+    width: 507px;
+    background-color: rgb(226, 185, 138);
+    /* height: 60px; */
+    padding: 20px 0px 20px 0px;
+    display: none;
+    cursor: pointer;
+}
+
+.prod-img .items:hover p {
+    display: block;
+}
+
+.prod-img1 .items p {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -1883px;
+    width: 506px;
+    background-color: rgb(226, 185, 138);
+    /* height: 60px; */
+    padding: 20px 0px 20px 0px;
+    display: none;
+    transition: 0.55s;
+    cursor: pointer;
+}
+
+.prod-img1 .items:hover p {
+    display: block;
+    background-color: rgb(226, 185, 138);
+}
+
+
+.butt {
+    text-align: center;
+
+}
+
+.butt button {
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin: 50px 0px 50px 0px;
+    background-color: rgb(225, 204, 180);
+    border: 0px solid bisque;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 0.78s;
+}
+
+.butt button:hover {
+    background-color: rgb(122, 106, 87);
+}
+
+.abtus {
+    display: flex;
+    margin: 250px 0px 0px 0px;
+    background-color: #F0F0F0;
+}
+
+.abtus img {
+    height: 600px;
+    width: 600px;
+}
+
+.txt p {
+    align-items: center;
+    font-size: 18px;
+    width: 550px;
+    line-height: 200%;
+}
+
+.txt h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.txt {
+    margin: auto;
+}
+
+.peanut img {
+    margin: 20px 0px -4px 0px;
+}
+
+.txt button {
+    height: 50px;
+    width: 160px;
+    border: 0px brown solid;
+    background-color: #9D541B;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.txt button:hover {
+    background-color: rgb(146, 124, 101);
+}
+
+.farm img {
+    position: absolute;
+    /* bottom: 850px; */
+    top: 2750px;
+    left: 250px;
+}
+
+.speciality {
+    background-image: url(E:/spigot/site1/bg1.jpg);
+    height: 800px;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: 0.55s, border-radius 0.3s, opacity 0.3s;
+}
+
+.clr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(232, 221, 221, 0.96);
+    /* background-color: white; */
+}
+
+.txt1 {
+    font-size: 30px;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.icns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    /* margin-left: 280px; */
+}
+
+.icns p {
+    margin-left: 140px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.thi p {
+    height: 20px;
+    width: 450px;
+    margin-left: 50px;
+}
+
+.first p {
+    margin-left: 190px;
+}
+
+.icns i {
+    font-size: 70px;
+    margin-left: 230px;
+    align-items: center;
+}
+
+.icns1 {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    font-size: 20px;
+    margin: 60px 0px 0px 40px;
+}
+
+.icns1 p {
+    /* margin-left: 190px; */
+    text-align: center;
+}
+
+
+.icns1 i {
+    font-size: 80px;
+    /* margin-left: 180px; */
+}
+
+.first1 i {
+    margin-left: 120px;
+}
+
+.first1 p {
+    width: 290px;
+    margin-right: 120px;
+}
+
+.thi3 i {
+    margin-left: 200px;
+}
+
+.thi3 p {
+    margin-left: 120px;
+}
+
+.foot-logo img {
+    height: 180px;
+    width: 250px;
+    filter: brightness(1.5);
+    margin-left: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
+}
+
+.footer ul li {
+    list-style: none;
+    font-size: 19px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    /* color:black; */
+    color: gray;
+}
+
+.footer ul li a:hover {
+    color: whitesmoke;
+}
+
+.num {
+    margin-top: 15px;
+}
+
+.num a {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.num b {
+    color: gray;
+}
+
+.num .address {
+    width: 300px;
+    line-height: 200%;
+    color: gray;
+}
+
+.num .no {
+    font-size: 25px;
+    color: white;
+}
+
+.footer ul b {
+    margin-left: 25px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.foot-ic {
+    display: flex;
+    /* font-size: 50px; */
+    margin: 40px 0px 50px 0px;
+}
+
+.foot-ic a i {
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.foot-ic .fb {
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 14px 15px 10px 14px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(70, 70, 203);
+}
+
+.foot-ic .fb:hover {
+    background-color: #aa7348;
+}
+
+.foot-ic .twi {
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 14px 15px 10px 14px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(94, 178, 211);
+    margin-left: 10px;
+}
+
+.foot-ic .twi:hover {
+    background-color: #aa7348;
+}
+
+.foot-ic .ins {
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 14px 15px 10px 14px;
+    font-size: 30px;
+    color: white;
+    background-color: lightcoral;
+    margin-left: 10px;
+}
+
+.foot-ic .ins:hover {
+    background-color: #aa7348;
+}
+
+.foot-ic .what {
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 14px 15px 10px 14px;
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    margin-left: 10px;
+}
+
+.foot-ic .what:hover {
+    background-color: #aa7348;
+}
+
+.foot-ic .linked {
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 14px 15px 10px 14px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(135, 135, 229);
+    margin-left: 10px;
+}
+
+.foot-ic .linked:hover {
+    background-color: #aa7348;
+}
+
+.main {
+    background-color: black;
+}
+
+.main .cpyright {
+    color: white;
+}
+
+.cpyright {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin-left: 140px; */
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 130px;
+    color: white;
+}
+
+.cpyright .policy {
+    margin-left: 760px;
+    color: white;
+    background-color: black;
+
+}
+
+
